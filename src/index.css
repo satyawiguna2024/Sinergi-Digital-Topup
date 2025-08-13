@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+
+  --breakpoint-xs: 425px;
+}
+
+body {
+  background-color: rgb(39, 39, 47)
+}
+/* background-color: rgb(50, 50, 61) */
+
+.container-costume {
+  @apply w-full max-w-[1000px] mx-auto;
+}
