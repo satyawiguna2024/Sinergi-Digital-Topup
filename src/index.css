@@ -6,7 +6,7 @@
 @theme {
   --font-inter: "Inter", sans-serif;
   --font-raleway: "Raleway", sans-serif;
-
+  --shadow-cs: 0 4px 50px rgba(251, 251, 251, 0.5);
   --breakpoint-xs: 425px;
 }
 
