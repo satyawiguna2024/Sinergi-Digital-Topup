@@ -3,22 +3,22 @@ import { FaHeadphones } from "react-icons/fa";
 import { FaUserShield } from "react-icons/fa6";
 import { BsLightningCharge } from "react-icons/bs";
 
-export default function InformationTopup() {
+export default function InformationTopup({ games }) {
   return (
     <>
       <div>
         <div className="flex items-center gap-4">
           {/* image */}
-          <div className="size-[70px] rounded-lg bg-slate-300" />
+          <img src={games.image} alt={games.name} className="size-[70px] object-cover rounded-lg object-top bg-slate-800" />
 
           <div>
             {/* tag */}
             <h4 className="bg-blue-500 text-white font-inter font-medium rounded-full p-1 text-center">
-              Montoon
+              {games.tag}
             </h4>
             {/* title */}
             <h3 className="font-inter text-white font-medium text-lg tracking-wide mt-1">
-              Mobile Legends
+              {games.name}
             </h3>
           </div>
         </div>
@@ -55,8 +55,8 @@ export default function InformationTopup() {
 
         <div className="w-full h-[3px] bg-slate-200 rounded-lg my-7" />
 
-        <h5 className="font-inter font-medium text-md text-white mb-5">Top Up Diamond Mobile Legends</h5>
-        <p className="font-inter font-light text-sm text-slate-400 max-w-[300px]">Layanan top up diamond Mobile Legends (ML) di Sinergi-Digital dengan harga terjangkau dan proses mudah. Harga diamond ML mulai dari Rp1.500 dengan sistem otomatis yang praktis.</p>
+        <h5 className="font-inter font-medium text-md text-white mb-5">{games.title}</h5>
+        <p className="font-inter font-light text-sm text-slate-400 max-w-[300px]">{games.information}</p>
       </div>
     </>
   );

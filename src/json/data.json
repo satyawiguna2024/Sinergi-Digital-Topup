@@ -1,0 +1,118 @@
+[
+  {
+    "id": "mobile-legends",
+    "name": "Mobile Legends",
+    "tag": "Moonton",
+    "title": "Top Up Diamond Mobile Legends",
+    "information": "Layanan top up diamond Mobile Legends (ML) di Sinergi Digital dengan harga terjangkau dan proses mudah. Harga diamond ML mulai dari Rp1.500 dengan sistem praktis.",
+    "image": "/img/mlbb.jpg",
+    "input": [
+      {"pholder": "UserID", "type": "number", "value": "userId"},
+      {"pholder": "ServerID", "type": "number", "value": "serverId"}
+    ],
+    "package": [
+      {"name": "Weekly Diamond Pass", "price": 27000, "icon": "/ico/wdp.webp"},
+      {"name": "5(5+10) Diamonds", "price": 1500, "icon": "/ico/diamond.png"},
+      {"name": "10(10+0) Diamonds", "price": 3000, "icon": "/ico/diamond.png"},
+      {"name": "12(11+1) Diamonds", "price": 3400, "icon": "/ico/diamond.png"},
+      {"name": "19(17+2) Diamonds", "price": 5500, "icon": "/ico/diamond.png"},
+      {"name": "28(25+3) Diamonds", "price": 8000, "icon": "/ico/diamond.png"},
+      {"name": "33(30+3) Diamonds", "price": 9300, "icon": "/ico/diamond.png"},
+      {"name": "44(40+4) Diamonds", "price": 12000, "icon": "/ico/diamond.png"},
+      {"name": "59(53+6) Diamonds", "price": 16000, "icon": "/ico/diamond.png"},
+      {"name": "71(64+7) Diamonds", "price": 19000, "icon": "/ico/diamond.png"},
+      {"name": "85(77+8) Diamonds", "price": 22500, "icon": "/ico/diamond.png"},
+      {"name": "113(102+11) Diamonds", "price": 30000, "icon": "/ico/diamond.png"},
+      {"name": "170(154+16) Diamonds", "price": 45000, "icon": "/ico/diamond-2.png"},
+      {"name": "240(217+23) Diamonds", "price": 65000, "icon": "/ico/diamond-2.png"},
+      {"name": "296(256+40) Diamonds", "price": 77000, "icon": "/ico/diamond-2.png"},
+      {"name": "408(367+41) Diamonds", "price": 110000, "icon": "/ico/diamond-2.png"},
+      {"name": "452(407+45) Diamonds", "price": 120000, "icon": "/ico/diamond-2.png"},
+      {"name": "510(450+60) Diamonds", "price": 140000, "icon": "/ico/diamond-2.png"},
+      {"name": "716(634+82) Diamonds", "price": 190000, "icon": "/ico/diamond-2.png"},
+      {"name": "875(774+101) Diamonds", "price": 227000, "icon": "/ico/diamond-2.png"},
+      {"name": "960(851+109) Diamonds", "price": 250100, "icon": "/ico/diamond-2.png"},
+      {"name": "1443(1277+166) Diamonds", "price": 370100, "icon": "/ico/diamond-2.png"},
+      {"name": "2010(1708+302) Diamonds", "price": 500300, "icon": "/ico/bag-diamond.png"},
+      {"name": "4020(3416+604) Diamonds", "price": 1000000, "icon": "/ico/bag-diamond.png"},
+      {"name": "8850(7419+1431) Diamonds", "price": 2300000, "icon": "/ico/bag-diamond.png"}
+    ]
+  },
+
+  {
+    "id": "free-fire",
+    "name": "Free Fire",
+    "tag": "Garena",
+    "title": "Free Fire: Battle Royale Penuh Aksi di Genggaman",
+    "information": "Free Fire adalah game battle royale yang menyuguhkan pertarungan seru di medan pertempuran dengan durasi singkat, menjadikannya cocok untuk dimainkan kapan saja. Pemain diharuskan bertahan hidup hingga akhir, mengumpulkan senjata dan peralatan dari berbagai lokasi, serta beradu strategi dengan puluhan pemain lain. Dengan grafis yang ringan dan kontrol yang mudah dipelajari, Free Fire menjadi pilihan populer di kalangan gamer mobile.",
+    "image": "/img/freefire.png",
+    "input": [
+      {"pholder": "UserID", "type": "number", "value": "userId"}
+    ],
+    "package": [
+      {"name": "Membership Mingguan", "price": 3000, "icon": "/ico/mm.webp"},
+      {"name": "BP Card", "price": 44000, "icon": "/ico/bp.webp"},
+      {"name": "Membership Bulanan", "price": 90000, "icon": "/ico/mb.webp"},
+      {"name": "50 Diamonds", "price": 8000, "icon": "/ico/dmff.webp"},
+      {"name": "100 Diamonds", "price": 15000, "icon": "/ico/dmff.webp"},
+      {"name": "355 Diamonds", "price": 47000, "icon": "/ico/dmff.webp"},
+      {"name": "720 Diamonds", "price": 94000, "icon": "/ico/dmff.webp"},
+      {"name": "1075 Diamonds", "price": 141000, "icon": "/ico/dmff.webp"},
+      {"name": "2160 Diamonds", "price": 280000, "icon": "/ico/dmff.webp"},
+      {"name": "4000 Diamonds", "price": 500000, "icon": "/ico/dmff.webp"},
+      {"name": "5500 Diamonds", "price": 700000, "icon": "/ico/dmff.webp"},
+      {"name": "7290 Diamonds", "price": 917000, "icon": "/ico/dmff.webp"}
+    ]
+  },
+
+  {
+    "id": "magic-chess-go-go",
+    "name": "Magic Chess Go Go",
+    "tag": "Vizta Games",
+    "title": "Top Up MCGG Murah Cepat Dan Aman Di Sinergi Digital",
+    "information": "Ingin Top Up MCGG Dengan Cepat Dan Harga Terbaik? Sinergi Digital Menyediakan Layanan Top Up Magic Chess Go Go Yang Instan, Terjangkau, Dan Aman. Segera Isi Diamonds Magic Chess Go Go Kamu, Dan Nikmati Keseruan Bertanding Tanpa Hambatan!",
+    "image": "/img/mcgg.jpg",
+    "input": [
+      {"pholder": "UserID", "type": "number", "value": "userId"},
+      {"pholder": "ServerID", "type": "number", "value": "serverId"}
+    ],
+    "package": [
+      {"name": "Weekly Card", "price": 27000, "icon": "/ico/wc.webp"},
+      {"name": "5(5+10) Diamonds", "price": 1500, "icon": "/ico/diamond.png"},
+      {"name": "12(11+1) Diamonds", "price": 3700, "icon": "/ico/diamond.png"},
+      {"name": "19(17+2) Diamonds", "price": 6000, "icon": "/ico/diamond.png"},
+      {"name": "28(25+3) Diamonds", "price": 8000, "icon": "/ico/diamond.png"},
+      {"name": "44(40+4) Diamonds", "price": 13000, "icon": "/ico/diamond.png"},
+      {"name": "59(53+6) Diamonds", "price": 16000, "icon": "/ico/diamond.png"},
+      {"name": "85(77+8) Diamonds", "price": 23000, "icon": "/ico/diamond.png"},
+      {"name": "170(154+16) Diamonds", "price": 47000, "icon": "/ico/diamond-2.png"},
+      {"name": "240(217+23) Diamonds", "price": 67000, "icon": "/ico/diamond-2.png"},
+      {"name": "296(256+40) Diamonds", "price": 81000, "icon": "/ico/diamond-2.png"},
+      {"name": "408(367+41) Diamonds", "price": 111000, "icon": "/ico/diamond-2.png"},
+      {"name": "568(503+65) Diamonds", "price": 151000, "icon": "/ico/diamond-2.png"},
+      {"name": "875(774+101) Diamonds", "price": 230700, "icon": "/ico/diamond-2.png"},
+      {"name": "2010(1708+302) Diamonds", "price": 501000, "icon": "/ico/bag-diamond.png"},
+      {"name": "4830(4003+827) Diamonds", "price": 1220000, "icon": "/ico/bag-diamond.png"}
+    ]
+  },
+
+  {
+    "id": "pubg-mobile",
+    "name": "Pubg Mobile",
+    "tag": "Tencent",
+    "title": "PUBG Mobile: Sensasi Battle Royale Terpopuler di Dunia",
+    "information": "PUBG Mobile adalah game battle royale yang menempatkan 100 pemain dalam satu arena untuk saling bertarung hingga tersisa satu pemenang. Dengan kualitas grafis realistis, senjata beragam, dan mode permainan yang kompetitif, PUBG Mobile berhasil menarik jutaan gamer di seluruh dunia. Setiap pertempuran menuntut kerja sama tim serta strategi jitu untuk menguasai medan perang, menjadikan game ini semakin menantang dan seru untuk dimainkan.",
+    "image": "/img/pubg.jpg",
+    "input": [
+      {"pholder": "UserID", "type": "number", "value": "userId"}
+    ],
+    "package": [
+      {"name": "60 Unknown Cash", "price": 15000, "icon": "/ico/uc.png"},
+      {"name": "325 Unknown Cash", "price": 70000, "icon": "/ico/uc.png"},
+      {"name": "660 Unknown Cash", "price": 150000, "icon": "/ico/uc.png"},
+      {"name": "1800 Unknown Cash", "price": 355000, "icon": "/ico/uc.png"},
+      {"name": "3850 Unknown Cash", "price": 720000, "icon": "/ico/uc.png"},
+      {"name": "8100 Unknown Cash", "price": 1500000, "icon": "/ico/uc.png"}
+    ]
+  }
+]
