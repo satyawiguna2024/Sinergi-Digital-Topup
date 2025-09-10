@@ -1,10 +1,16 @@
-import Image1 from "../../assets/img/image1.jpg"
-import Image2 from "../../assets/img/image2.jpg"
-import Image3 from "../../assets/img/image3.jpg"
-import Image4 from "../../assets/img/image4.jpg"
-import Image5 from "../../assets/img/image5.jpg"
+import { initFlowbite } from "flowbite";
+import Image1 from "../../assets/img/image1.jpg";
+import Image2 from "../../assets/img/image2.jpg";
+import Image3 from "../../assets/img/image3.jpg";
+import Image4 from "../../assets/img/image4.jpg";
+import Image5 from "../../assets/img/image5.jpg";
+import { useEffect } from "react";
 
 export default function SliderImage() {
+  useEffect(() => {
+    initFlowbite();
+  }, []);
+
   return (
     <>
       <div

@@ -1,8 +1,10 @@
+import { Link } from "react-router";
 import ExampleImage from "../../assets/img/gaming.png";
 import Accordin from "../../components/Accordin";
 import { brandMenu } from "../../hooks/brandList";
 
 export default function Home() {
+
   return (
     <>
       <div className="home-section">
@@ -23,9 +25,9 @@ export default function Home() {
             </p>
             {/* button */}
             <div className="mt-12 space-x-3">
-              <button className="px-8 py-2 bg-blue-400 hover:bg-blue-500 hover:shadow-2xl shadow-slate-50 cursor-pointer text-white rounded-full font-inter transition-all duration-300">
+              <Link to="/games" className="px-8 py-2 bg-blue-400 hover:bg-blue-500 hover:shadow-2xl shadow-slate-50 text-white rounded-full font-inter transition-all duration-300">
                 Order Now
-              </button>
+              </Link>
               <button className="px-8 py-2 border text-white hover:shadow-md rounded-full font-inter transition-all duration-300 shadow-slate-100 cursor-pointer">
                 Explore
               </button>

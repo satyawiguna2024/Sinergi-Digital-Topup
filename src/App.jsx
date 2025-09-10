@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router";
 import { Games, Home } from "./pages";
 import GamesTopUp from "./pages/game_topup/GamesTopUp";
 import MainLayouts from "./MainLayouts";
+import NotFound from "../NotFound";
 
 export default function App() {
   return (
@@ -33,7 +34,7 @@ export default function App() {
         />
 
         {/* not found pages */}
-        <Route path="*" element={<h1>Not Found</h1>} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
