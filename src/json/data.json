@@ -114,5 +114,27 @@
       {"name": "3850 Unknown Cash", "price": 720000, "icon": "/ico/uc.png"},
       {"name": "8100 Unknown Cash", "price": 1500000, "icon": "/ico/uc.png"}
     ]
+  },
+
+  {
+    "id": "bigo-live",
+    "name": "Bigo Live",
+    "tag": "Bigo Technology",
+    "title": "BIGO LIVE INDONESIA",
+    "information": "Top up Diamond Bigo Live hanya dalam hitungan detik! Cukup masukkan User ID Bigo Live Anda, pilih jumlah Diamond yang Anda inginkan, selesaikan pembayaran, dan Diamond akan secara langsung ditambahkan ke akun Bigo Live Anda.",
+    "image": "/img/bigo.jpg",
+    "input": [
+      {"pholder": "Bigo ID", "type": "number"}
+    ],
+    "package": [
+      {"name": "100 Diamonds", "price": 30000, "icon": "/ico/dmkuning.png"},
+      {"name": "500 Diamonds", "price": 150000, "icon": "/ico/dmkuning.png"},
+      {"name": "1000 Diamonds", "price": 300000, "icon": "/ico/dmkuning.png"},
+      {"name": "2500 Diamonds", "price": 750000, "icon": "/ico/dmkuning.png"},
+      {"name": "5000 Diamonds", "price": 1500000, "icon": "/ico/dmkuning.png"},
+      {"name": "10000 Diamonds", "price": 3000000, "icon": "/ico/dmkuning.png"},
+      {"name": "50000 Diamonds", "price": 15000000, "icon": "/ico/dmkuning.png"},
+      {"name": "100000 Diamonds", "price": 30000000, "icon": "/ico/dmkuning.png"}
+    ]
   }
 ]

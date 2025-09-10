@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
@@ -6,15 +7,37 @@
 @theme {
   --font-inter: "Inter", sans-serif;
   --font-raleway: "Raleway", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+
   --shadow-cs: 0 4px 50px rgba(251, 251, 251, 0.5);
   --breakpoint-xs: 425px;
 }
 
 body {
-  background-color: rgb(39, 39, 47)
+  background-color: rgb(39, 39, 47);
 }
 /* background-color: rgb(50, 50, 61) */
 
 .container-costume {
   @apply w-full max-w-[1000px] mx-auto;
 }
+
+.home-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("./assets/img/latar.jpeg");
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  height: 40rem;
+}
+
+.bg-gradient {
+  background-color: rgb(39,39,47);
+  background-image: 
+    linear-gradient(22deg, rgba(39, 39, 47, 1) 76%, rgb(96, 151, 157) 100%);
+  background-repeat: no-repeat;
+  background-position: top right, bottom left;
+  background-size: 100% 100%, 100% 100%;
+}
+
+

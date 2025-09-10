@@ -1,6 +1,6 @@
 import data from "../../json/data.json";
 import SinergiIC from "../../assets/icons/sinergi-digital.png";
-import { Link } from "react-router";
+import { Link } from "react-router"; 
 
 export default function CardGames() {
   return (
