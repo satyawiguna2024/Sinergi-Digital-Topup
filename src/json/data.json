@@ -7,8 +7,8 @@
     "information": "Layanan top up diamond Mobile Legends (ML) di Sinergi Digital dengan harga terjangkau dan proses mudah. Harga diamond ML mulai dari Rp1.500 dengan sistem praktis.",
     "image": "/img/mlbb.jpg",
     "input": [
-      {"pholder": "UserID", "type": "number", "value": "userId"},
-      {"pholder": "ServerID", "type": "number", "value": "serverId"}
+      {"pholder": "UserID", "type": "number", "value": "userId", "maxLength": 12},
+      {"pholder": "ServerID", "type": "number", "value": "serverId", "maxLength": 6}
     ],
     "package": [
       {"name": "Weekly Diamond Pass", "price": 27000, "icon": "/ico/wdp.webp"},
@@ -47,7 +47,7 @@
     "information": "Free Fire adalah game battle royale yang menyuguhkan pertarungan seru di medan pertempuran dengan durasi singkat, menjadikannya cocok untuk dimainkan kapan saja. Pemain diharuskan bertahan hidup hingga akhir, mengumpulkan senjata dan peralatan dari berbagai lokasi, serta beradu strategi dengan puluhan pemain lain. Dengan grafis yang ringan dan kontrol yang mudah dipelajari, Free Fire menjadi pilihan populer di kalangan gamer mobile.",
     "image": "/img/freefire.png",
     "input": [
-      {"pholder": "UserID", "type": "number", "value": "userId"}
+      {"pholder": "UserID", "type": "number", "value": "userId", "maxLength": 12}
     ],
     "package": [
       {"name": "Membership Mingguan", "price": 3000, "icon": "/ico/mm.webp"},
@@ -73,8 +73,8 @@
     "information": "Ingin Top Up MCGG Dengan Cepat Dan Harga Terbaik? Sinergi Digital Menyediakan Layanan Top Up Magic Chess Go Go Yang Instan, Terjangkau, Dan Aman. Segera Isi Diamonds Magic Chess Go Go Kamu, Dan Nikmati Keseruan Bertanding Tanpa Hambatan!",
     "image": "/img/mcgg.jpg",
     "input": [
-      {"pholder": "UserID", "type": "number", "value": "userId"},
-      {"pholder": "ServerID", "type": "number", "value": "serverId"}
+      {"pholder": "UserID", "type": "number", "value": "userId", "maxLength": 12},
+      {"pholder": "ServerID", "type": "number", "value": "serverId", "maxLength": 6}
     ],
     "package": [
       {"name": "Weekly Card", "price": 27000, "icon": "/ico/wc.webp"},
@@ -104,7 +104,7 @@
     "information": "PUBG Mobile adalah game battle royale yang menempatkan 100 pemain dalam satu arena untuk saling bertarung hingga tersisa satu pemenang. Dengan kualitas grafis realistis, senjata beragam, dan mode permainan yang kompetitif, PUBG Mobile berhasil menarik jutaan gamer di seluruh dunia. Setiap pertempuran menuntut kerja sama tim serta strategi jitu untuk menguasai medan perang, menjadikan game ini semakin menantang dan seru untuk dimainkan.",
     "image": "/img/pubg.jpg",
     "input": [
-      {"pholder": "UserID", "type": "number", "value": "userId"}
+      {"pholder": "UserID", "type": "number", "value": "userId", "maxLength": 12}
     ],
     "package": [
       {"name": "60 Unknown Cash", "price": 15000, "icon": "/ico/uc.png"},
@@ -124,7 +124,7 @@
     "information": "Top up Diamond Bigo Live hanya dalam hitungan detik! Cukup masukkan User ID Bigo Live Anda, pilih jumlah Diamond yang Anda inginkan, selesaikan pembayaran, dan Diamond akan secara langsung ditambahkan ke akun Bigo Live Anda.",
     "image": "/img/bigo.jpg",
     "input": [
-      {"pholder": "Bigo ID", "type": "number"}
+      {"pholder": "Bigo ID", "type": "number", "value": "bigoId", "maxLength": 12}
     ],
     "package": [
       {"name": "100 Diamonds", "price": 30000, "icon": "/ico/dmkuning.png"},

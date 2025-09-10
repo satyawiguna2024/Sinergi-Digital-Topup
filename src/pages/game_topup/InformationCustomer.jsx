@@ -1,4 +1,16 @@
-export default function InformationCustomer({games}) {
+export default function InformationCustomer({
+  games,
+  customerInfo,
+  setCustomerInfo,
+}) {
+  // handler untuk setiap input
+  const handleChange = (key, value) => {
+    setCustomerInfo((prev) => ({
+      ...prev,
+      [key]: value, // dynamic key (misalnya "playerId", "serverId", "nomor")
+    }));
+  };
+
   return (
     <>
       <div>
@@ -21,13 +33,20 @@ export default function InformationCustomer({games}) {
               Masukan Player ID
             </label>
 
-            <div className={`grid ${games.input.length > 1 ? "grid-cols-2 gap-3" : ""}`}>
+            <div
+              className={`grid ${
+                games.input.length > 1 ? "grid-cols-2 gap-3" : ""
+              }`}
+            >
               {games.input.map((field, i) => (
                 <input
                   key={i}
                   type={field.type}
-                  id="playerId"
-                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                  id={field.value}
+                  value={customerInfo[field.value] || ""} // ambil dari state sesuai key
+                  onChange={(e) => handleChange(field.value, e.target.value)}
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
+              focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                   placeholder={field.pholder}
                   required
                 />
@@ -45,12 +64,15 @@ export default function InformationCustomer({games}) {
             </label>
 
             <input
-                type="number"
-                id="nomor"
-                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                placeholder="089xxxxxxxxxxx"
-                required
-              />
+              type="number"
+              id="nomor"
+              value={customerInfo.nomor || ""}
+              onChange={(e) => handleChange("nomor", e.target.value)}
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
+                        focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              placeholder="089xxxxxxxxxxx"
+              required
+            />
           </div>
         </form>
       </div>

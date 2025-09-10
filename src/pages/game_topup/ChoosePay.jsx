@@ -2,11 +2,15 @@ import { useState } from "react";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 import { payments } from "./payments";
 
-export default function ChoosePay() {
+export default function ChoosePay({ selectedPayment, setSelectedPayment }) {
   const [open, setOpen] = useState(null);
 
   const toggleAccordion = (index) => {
     setOpen(open === index ? null : index);
+  };
+
+  const handleSelect = (payment) => {
+    setSelectedPayment(payment); // simpan payment yg dipilih
   };
 
   return (
@@ -53,24 +57,27 @@ export default function ChoosePay() {
                 <div className="px-4 pb-4 text-sm text-gray-300">
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                     {item.card_detail.map((dat, it) => (
-                      <div
+                      <button
                         key={it}
-                        className="w-full h-[150px] rounded-lg bg-slate-100 p-4"
+                        onClick={() =>
+                          handleSelect({
+                            group: item.title, // contoh: "E-Wallet"
+                            name: dat.name_payment, // contoh: "Dana"
+                          })
+                        }
+                        className={`flex justify-center items-center rounded-full size-20 p-2 border 
+                        ${
+                          selectedPayment?.name === dat.name_payment
+                            ? "border-cyan-500 bg-cyan-100"
+                            : "border-transparent bg-slate-300"
+                        }`}
                       >
-                        {/* Ambil 1 logo sesuai index */}
-                          <img
-                            src={item.logos[it]}
-                            alt={dat.name_payment}
-                            className="w-10 h-auto object-contain"
-                          />
-                        <h4 className="font-inter text-md sm:text-lg font-light text-slate-700 mt-3">
-                          Rp {dat.price}
-                        </h4>
-                        <hr className="w-full my-2 border-slate-400" />
-                        <p className="font-inter text-md font-semibold text-slate-900">
-                          {dat.name_payment}
-                        </p>
-                      </div>
+                        <img
+                          src={item.logos[it]}
+                          alt={dat.name_payment}
+                          className="w-16"
+                        />
+                      </button>
                     ))}
                   </div>
                   <p className="mt-3">{item.content}</p>
