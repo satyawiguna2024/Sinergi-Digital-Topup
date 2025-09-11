@@ -12,7 +12,7 @@
     ],
     "package": [
       {"name": "Weekly Diamond Pass", "price": 27000, "icon": "/ico/wdp.webp"},
-      {"name": "5(5+10) Diamonds", "price": 1500, "icon": "/ico/diamond.png"},
+      {"name": "5(5+0) Diamonds", "price": 1500, "icon": "/ico/diamond.png"},
       {"name": "10(10+0) Diamonds", "price": 3000, "icon": "/ico/diamond.png"},
       {"name": "12(11+1) Diamonds", "price": 3400, "icon": "/ico/diamond.png"},
       {"name": "19(17+2) Diamonds", "price": 5500, "icon": "/ico/diamond.png"},
