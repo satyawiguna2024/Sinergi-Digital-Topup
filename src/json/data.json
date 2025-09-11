@@ -50,7 +50,7 @@
       {"pholder": "UserID", "type": "number", "value": "userId", "maxLength": 12}
     ],
     "package": [
-      {"name": "Membership Mingguan", "price": 3000, "icon": "/ico/mm.webp"},
+      {"name": "Membership Mingguan", "price": 30000, "icon": "/ico/mm.webp"},
       {"name": "BP Card", "price": 44000, "icon": "/ico/bp.webp"},
       {"name": "Membership Bulanan", "price": 90000, "icon": "/ico/mb.webp"},
       {"name": "50 Diamonds", "price": 8000, "icon": "/ico/dmff.webp"},
